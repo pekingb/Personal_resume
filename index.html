@@ -1,65 +1,399 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Wang Siqi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Siqi Wang | Physical Chemistry & Statistical Biophysics</title>
+
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-3S19ETT82K"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-3S19ETT82K');
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-3S19ETT82K');
     </script>
+
     <link rel="stylesheet" href="style.css">
 </head>
+
+
 <body>
 
 <div class="container">
 
-    <div class="header">
-        <!--<img src="materials/photo.jpg" class="avatar" alt="photo"> -->
-        <h1>Wang Siqi</h1>
-        <p class="title">Undergraduate | Physical Chemistry</p>
-    </div>
+    <!-- =========================================================
+         HEADER
+         ========================================================= -->
 
-    <section>
-        <h2>About Me</h2>
-        <p>I am an undergraduate student with research interests in chemical reaction dynamics, molecular simulation,  artificial intelligence for chemistry, active soft matter,
-            and interfacial chemistry. My work focuses on understanding  molecular-level mechanisms through computational and theoretical approaches.
-            I am particularly interested in applying data-driven methods and simulation techniques to complex chemical and soft-matter systems. 
-            I plan to pursue graduate studies in computational chemistry and chemical physics.
+    <header class="header">
+
+        <!--
+        If you want to add a photo later:
+        <img src="materials/photo.jpg" class="avatar" alt="Siqi Wang">
+        -->
+
+        <h1>Siqi Wang</h1>
+
+        <p class="title">
+            Undergraduate Researcher | Physical Chemistry | Statistical Biophysics
         </p>
+
+        <p class="contact">
+            University of Science and Technology of China (USTC)
+            <br>
+            Email:
+            <a href="mailto:peking_wsq@mail.ustc.edu.cn">
+                peking_wsq@mail.ustc.edu.cn
+            </a>
+        </p>
+
+    </header>
+
+
+    <!-- =========================================================
+         ABOUT
+         ========================================================= -->
+
+    <section id="about">
+
+        <h2>About Me</h2>
+
+        <p>
+            I am an undergraduate student in Physical Chemistry at the
+            University of Science and Technology of China (USTC), with a
+            minor in Precision Intelligent Chemistry (AI for Chemistry).
+            My research interests lie at the intersection of
+            nonequilibrium statistical physics, soft matter, biophysics,
+            and computational chemistry.
+        </p>
+
+        <p>
+            My current research focuses on theoretical and computational
+            modeling of nonequilibrium biomolecular systems, particularly
+            how chemical energy consumption reshapes molecular interactions,
+            binding behavior, and collective dynamics.
+        </p>
+
+        <p>
+            My previous research spans computational protein design and
+            quantum-chemical modeling. More broadly, I am interested in
+            developing and applying statistical-mechanical, numerical, and
+            data-driven approaches to understand complex molecular and
+            soft-matter systems.
+        </p>
+
+        <p>
+            I plan to pursue graduate study in chemical physics,
+            statistical biophysics, soft matter, computational chemistry,
+            or related areas.
+        </p>
+
     </section>
 
-    <section>
+
+    <!-- =========================================================
+         RESEARCH INTERESTS
+         ========================================================= -->
+
+    <section id="interests">
+
         <h2>Research Interests</h2>
+
         <ul>
-            <li>Active soft matter</li>
-            <li>Chemical reaction dynamics</li>
-            <li>AI for Chemistry(e.g., de novo protein design)</li>
-            <li>Interfacial chemistry</li>
+            <li>Nonequilibrium Statistical Physics</li>
+            <li>Soft Matter and Statistical Biophysics</li>
+            <li>Biomolecular Condensates and Phase Separation</li>
+            <li>Computational Chemistry and Molecular Modeling</li>
+            <li>AI for Chemistry and Computational Protein Design</li>
         </ul>
+
+    </section>
+
+
+    <!-- =========================================================
+         RESEARCH EXPERIENCE
+         ========================================================= -->
+
+    <section id="research">
+
         <h2>Research Experience</h2>
-        <ul> Molecular Dynamics Under Photoexcitation | July 2025 - Aug 2025</ul>
-        <ul> Fluorescent Protein Design based on Integrated Machine Learning and Multiscale Simulation Approaches | July 2025 - Present</ul>
+
+
+        <!-- EPFL -->
+
+        <div class="research-item">
+
+            <h3>
+                Nonequilibrium Modeling of ATP-Driven Biomolecular Systems
+            </h3>
+
+            <p class="research-meta">
+                <strong>École Polytechnique Fédérale de Lausanne (EPFL)</strong>
+                <br>
+                Advisor: Prof. Paolo De Los Rios
+                <span class="date">Jul 2026 – Present</span>
+            </p>
+
+            <p>
+                I develop kinetic models of the ATP-driven Hsp70 chaperone
+                cycle to investigate how chemical energy consumption reshapes
+                substrate binding and steady-state behavior beyond equilibrium
+                constraints.
+            </p>
+
+            <p>
+                My work includes constructing and numerically solving a
+                four-state reaction network under mass-conservation and
+                thermodynamic-consistency constraints. I analyze steady-state
+                populations, effective binding affinity, probability currents,
+                and ultra- and infra-affinity regimes across ATP/ADP and
+                hydrolysis-rate parameter spaces.
+            </p>
+
+            <p>
+                I am also exploring phase-field descriptions of biomolecular
+                condensates and potential extensions connecting nonequilibrium
+                biochemical reactions with phase-separation dynamics.
+            </p>
+
+            <p class="keywords">
+                <strong>Keywords:</strong>
+                Nonequilibrium thermodynamics · Kinetic modeling ·
+                Statistical biophysics · Hsp70 · Phase separation
+            </p>
+
+        </div>
+
+
+        <!-- USTC -->
+
+        <div class="research-item">
+
+            <h3>
+                Computational Design of Near-Infrared Fluorescent Proteins
+            </h3>
+
+            <p class="research-meta">
+                <strong>University of Science and Technology of China</strong>
+                <br>
+                Advisor: Prof. Jie Zhang
+                <span class="date">Jul 2025 – Mar 2026</span>
+            </p>
+
+            <p>
+                I led a computational protein-design project aimed at
+                designing fluorescent proteins incorporating exogenous
+                small-molecule chromophores.
+            </p>
+
+            <p>
+                I developed an HPC-based design pipeline integrating
+                binding-site motif construction, constrained backbone
+                generation using RFdiffusion, sequence design using
+                LigandMPNN, and independent structure prediction using
+                AlphaFold.
+            </p>
+
+            <p>
+                Designed and predicted structures were compared using
+                RMSD-based metrics and structure-based filtering criteria
+                to prioritize candidate designs for subsequent molecular
+                dynamics and experimental validation.
+            </p>
+
+            <p class="keywords">
+                <strong>Keywords:</strong>
+                Computational protein design · RFdiffusion · LigandMPNN ·
+                AlphaFold · HPC · Structural modeling
+            </p>
+
+        </div>
+
+
+        <!-- Westlake -->
+
+        <div class="research-item">
+
+            <h3>
+                Molecular Dynamics Under Photoexcitation
+            </h3>
+
+            <p class="research-meta">
+                <strong>Westlake University</strong>
+                <br>
+                Advisor: Prof. Gu Bing
+                <span class="date">Jul 2025 – Aug 2025</span>
+            </p>
+
+            <p>
+                I received training in quantum chemistry and theoretical
+                modeling of molecular photophysical processes, with an
+                emphasis on translating theoretical concepts into numerical
+                calculations.
+            </p>
+
+            <p>
+                I performed electronic-structure calculations using PySCF
+                and Python, constructed molecular models, and analyzed
+                computed energies and potential-energy profiles for
+                molecular systems.
+            </p>
+
+            <p class="keywords">
+                <strong>Keywords:</strong>
+                Quantum chemistry · Electronic structure · PySCF ·
+                Python · Molecular modeling
+            </p>
+
+        </div>
+
     </section>
 
-    <section>
+
+    <!-- =========================================================
+         EDUCATION
+         ========================================================= -->
+
+    <section id="education">
+
         <h2>Education</h2>
-        <p> Undergraduate, University of Science and Technology of China | 2023 - Present </p> 
-    </section>
-    
 
-    <section>
+        <div class="education-item">
+
+            <h3>
+                University of Science and Technology of China (USTC)
+            </h3>
+
+            <p>
+                <strong>B.S. in Physical Chemistry</strong>
+                <span class="date">Sep 2023 – Present</span>
+            </p>
+
+            <p>
+                School of Chemistry and Materials Science
+                <br>
+                Minor: Precision Intelligent Chemistry (AI for Chemistry)
+            </p>
+
+            <p>
+                <strong>GPA:</strong> 3.85/4.30
+                &nbsp; | &nbsp;
+                <strong>Overall Rank:</strong> 7/135
+                &nbsp; | &nbsp;
+                <strong>Major Rank:</strong> 2/23
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         SELECTED HONORS
+         ========================================================= -->
+
+    <section id="honors">
+
+        <h2>Selected Honors</h2>
+
+        <ul>
+            <li>
+                <strong>Outstanding Project</strong>,
+                National Undergraduate Innovation Training Program,
+                USTC (2026)
+            </li>
+
+            <li>
+                <strong>Jiaxi Lu Elite Scholarship, Category A
+                (Top 2%)</strong>, USTC (2025)
+            </li>
+
+            <li>
+                <strong>Jiaxi Lu Scholarship (Top 5%)</strong>,
+                USTC (2025)
+            </li>
+
+            <li>
+                <strong>Third Prize</strong>,
+                National Undergraduate Mathematics Competition,
+                Anhui Provincial Division (2025)
+            </li>
+
+            <li>
+                <strong>Outstanding Student Silver Scholarship
+                (Top 10%)</strong>, USTC (2024)
+            </li>
+
+        </ul>
+
+    </section>
+
+
+    <!-- =========================================================
+         COMPUTATIONAL SKILLS
+         ========================================================= -->
+
+    <section id="skills">
+
+        <h2>Computational Skills</h2>
+
+        <p>
+            <strong>Programming:</strong>
+            Python (NumPy, SciPy, Matplotlib), C
+        </p>
+
+        <p>
+            <strong>Scientific Computing &amp; Modeling:</strong>
+            PySCF, Gaussian, GROMACS, PyRosetta
+        </p>
+
+        <p>
+            <strong>Tools:</strong>
+            PyMOL, Origin, LaTeX
+        </p>
+
+    </section>
+
+
+    <!-- =========================================================
+         CV
+         ========================================================= -->
+
+    <section id="cv">
+
         <h2>CV</h2>
-        <a href="materiels/CV_Siqi_Wang.pdf" target="_blank">Download my CV (PDF)</a>
+
+        <p>
+            <a href="materials/CV_Siqi_Wang.pdf"
+               target="_blank"
+               rel="noopener noreferrer">
+                View / Download CV (PDF)
+            </a>
+        </p>
+
     </section>
 
-    <section>
+
+    <!-- =========================================================
+         CONTACT
+         ========================================================= -->
+
+    <section id="contact">
+
         <h2>Contact</h2>
-        <p>Email: peking_wsq@mail.ustc.edu.cn</p>
+
+        <p>
+            Email:
+            <a href="mailto:peking_wsq@mail.ustc.edu.cn">
+                peking_wsq@mail.ustc.edu.cn
+            </a>
+        </p>
+
     </section>
+
 
 </div>
 
